@@ -1,0 +1,16 @@
+.none{
+  display: none;
+}
+
+.unnone{
+  display: flex;
+}
+
+.review{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap:2rem;
+  color:white;
+  letter-spacing: 0.1rem
+}
