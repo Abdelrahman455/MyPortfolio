@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Portfolio-Abdelraman about work projekts and more.</title>
+
+  <meta name="description" content="This a Portfolio about Me Abdelrahman Ahmed a Fullstack developer with 2 years Experience">
+  
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1791/1791917.png" type="image/x-icon" />
+  
+  <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/1791/1791917.png">
+</head>
+<!--cdn:
+  -anime
+  -fontawsome
+  -bottstrap
+  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!--style:
+  -setup
+  -style
+  -hover
+  -->
+<link rel="stylesheet" href="css/load.css">
+<link rel="stylesheet" href="css/setup.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/hover.css">
+<link rel="stylesheet" href="css/res.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/effects.css">
+</head>
+
+<body id="body">
+
+  <!--loading-->
+  <div class="load" id="load">
+    <h1>Oops,</h1>
+    <h1>No connection Now </h1>
+    <button type="reset" class="buttondark">
+      <h1>Try again</h1>
+    </button>
+  </div>
+  <!--nav:
+  - logo
+  - components
+  - button to github
+  -->
+  <nav class="flex widthfull aligncenter shadow-sm  " id="nav">
+
+    <div class="logo padding opacityzero" id="logo">
+      Abdelrahman
+    </div>
+
+    <div class="flex aligncenter gap justifystart  padding opacityzero" in id="navcomp">
+      <ul class="flex gap aligncenter">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#Home">Home</a></li>
+      </ul>
+      <button class="buttonlight">
+        <a href="#email">Email</a>
+      </button>
+      <button class="buttondark">
+        <a href="https://github.com/Abdelrahman455/About/blob/main/README.md">Github</a>
+      </button>
+    </div>
+
+
+  </nav>
+
+  <!--row1:Banner
+  - carousel 
+  - animatted text
+  - no images
+  - Bootstrap
+  - Scrool
+  - contact
+  -->
+
+  <div class="Home widthfull flex aligncenter justifycenter heightfull" id="Home">
+
+    <div id="carouselExampleControls" class="carousel slide widthfull heightfull" data-bs-ride="carousel">
+      <div class="carousel-inner heightfull">
+        <div class="carousel-item active heightfull widthfull">
+          <!--freelancer-->
+          <div class="freelancer widthfull heightfull flex aligncenter justifycenter">
+            <h1 id="carouselheader">
+              Freelancer.
+            </h1>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Iam a Freelancer</h5>
+              <p>You would like see my Projekts.</p>
+            </div>
+          </div>
+        </div>
+        <!--frontend-->
+        <div class="carousel-item heightfull widthfull">
+          <div class=" frontend widthfull heightfull flex aligncenter justifycenter">
+
+            <h1 id="carouselheader">
+              Frontend Dev.
+            </h1>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>I am frontend developer</h5>
+              <p>I am a Frontend developer with experience that you wonot see anywhre.</p>
+            </div>
+          </div>
+        </div>
+        <!--backend-->
+        <div class="carousel-item heightfull widthfull">
+          <div class=" backend widthfull heightfull flex aligncenter justifycenter">
+
+            <h1 id="carouselheader">
+              Backend Dev.
+            </h1>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Iam Backend developer</h5>
+              <p>I am not so good in it but i can make Projekts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--scroll-->
+
+    <div class="scroll" id="scroll">
+      <button class="buttonscroll">
+        ↓
+      </button>
+      <p>Scroll</p>
+    </div>
+
+  </div>
+
+  <!--services-->
+  <div class="skills  widthfull flex " id="skills">
+    <div class="text flex column aligncenter justifyend justifycenter">
+      <p>S</p>
+      <p>E</p>
+      <p>R</p>
+      <p>V</p>
+      <p>I</p>
+      <p>E</p>
+      <p>c</p>
+      <p>E</p>
+      <p>S</p>
+    </div>
+
+    <div class="cardscon widthfull wrap flex aligncenter justifycenter gap">
+
+      <div class="card servicescard">
+        <div class="header">
+          <h2>User Interfaces</h2>
+        </div>
+        <div class="graytext">
+          <p>
+            I can make very beautiful User Interfaces with very good animatted Texts images and all you can imagine. With Html and styling with css and bootstrap
+          </p>
+        </div>
+      </div>
+
+      <div class="card servicescard">
+        <div class="header">
+          <h2>Responsive Design</h2>
+        </div>
+        <div class="graytext">
+          <p>
+            Ofcourse you don't want that your website only for Desktop Users available. So i can make the website for all of devices that exists on the world from Tv to Nokia.
+          </p>
+        </div>
+      </div>
+
+      <div class="card servicescard">
+        <div class="header">
+          <h2>Login Systems</h2>
+        </div>
+        <div class="graytext">
+          <p>
+            Ofcourse you don't want that your website donot have a login system . So i can make a Login system with the most powerful nosql framework firebase and with the Scripting language Php and i will not yalk about the security.
+          </p>
+        </div>
+      </div>
+
+      <div class="card servicescard">
+        <div class="header">
+          <h2>Deploying</h2>
+        </div>
+        <div class="graytext">
+          <p>
+            The people can't see your Website
+            localy so ulyou must deploy it. All
+            you want is a netlify account and I
+            will deploy it for you.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--row2:
+  About
+  -->
+  <div class="skills widthfull flex  " id="about">
+    <div class="textd flex column aligncenter justifyend justifycenter ">
+      <p>A</p>
+      <p>B</p>
+      <p>O</p>
+      <p>U</p>
+      <p>T</p>
+      <p>M</p>
+      <p>E</p>
+    </div>
+    <div class="aboutcon  widthfull ">
+
+      <div class="aboutseccon">
+        <div class="sectionprojekts">
+          <p>Customersr:</p>
+          <span>+1000</span>
+        </div>
+
+        <div class="sectionprojekts">
+          <p>Projekts Number:</p>
+          <span>+100</span>
+        </div>
+
+        <div class="sectionprojekts">
+          <p>Experience:</p>
+          <span>+2</span>
+        </div>
+
+        <div class="sectionprojekts">
+          <p>Projects:</p>
+          <span>+100</span>
+        </div>
+      </div>
+
+      <div class="aboutme">
+        <div class="img">
+          <img src="https://i.pinimg.com/736x/b2/a4/74/b2a474fa8b0ea15af63c4997075448e9.jpg" alt="">
+        </div>
+        <div class="textabout">
+          <h3>Iam Abdelraman.
+            I am a Fullstack developer.
+            I can make any thing that you can imagine in Web development</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--row3:
+  -2divs
+  - animated text
+  - 3cards
+  -3 images
+  background:white
+  -->
+  <div class="skills widthfull flex " id="skills">
+    <div class="text flex column aligncenter justifyend justifycenter">
+      <p>S</p>
+      <p>K</p>
+      <p>I</p>
+      <p>L</p>
+      <p>L</p>
+      <p>S</p>
+    </div>
+    <div class="cardscon widthfull wrap flex aligncenter justifycenter gap">
+
+      <div class="card">
+        <div class="header">
+          <h2>Frontend</h2>
+        </div>
+        <div class="graytext">
+          <p>Html
+            <progress value="100"></progress>
+            <span id="progresstxt">100</span>%
+          </p>
+          <p>css
+            <progress value="100"></progress>
+            <span id="progresstxt">100</span>%
+          </p>
+          <p>JavaScript
+            <progress value="100"></progress>
+            <span id="progresstxt">100</span>%
+          </p>
+          <p>jequery
+            <progress value="100"></progress>
+            <span id="progresstxt">90</span>%
+          </p>
+          <button class="buttonlight">
+            <a href="https://github.com/Abdelrahman455/About/blob/main/README.md">See</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="header">
+          <h2>Backend</h2>
+        </div>
+        <div class="graytext">
+          <p>Php
+            <progress value="98"></progress>
+            <span id="progresstxt">98</span>%
+          </p>
+          <p>Firebase
+            <progress value="96"></progress>
+            <span id="progresstxt">96</span>%
+          </p>
+          <p>mysql
+            <progress value="90"></progress>
+            <span id="progresstxt">90</span>%
+          </p>
+          <button class="buttonlight">
+            <a href="https://github.com/Abdelrahman455/About/blob/main/README.md">See</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="header">
+          <h2>Packages</h2>
+        </div>
+        <div class="graytext">
+          <p>Bootstrap
+            <progress value="100"></progress>
+            <span id="progresstxt">100</span>%
+          </p>
+          <p>Animejs
+            <progress value="100"></progress>
+            <span id="progresstxt">100</span>%
+          </p>
+          <p>Api
+            <progress value="100"></progress>
+            <span id="progresstxt">100</span>%
+          </p>
+          <p>Typography
+            <progress value="100"></progress>
+            <span id="progresstxt">100</span>%
+          </p>
+          <button class="buttonlight">
+            <a href="https://github.com/Abdelrahman455/About/blob/main/README.md">See</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--row4
+  - work
+  - json
+  - work file
+  - id work
+  - images
+  - dark
+  -->
+  <div class="skills widthfull flex  " id="projekts">
+    <div class="textd flex column aligncenter justifyend justifycenter ">
+      <p>P</p>
+      <p>R</p>
+      <p>O</p>
+      <p>J</p>
+      <p>E</p>
+      <p>K</p>
+      <p>T</p>
+      <p>S</p>
+    </div>
+    <div class="cardscond widthfull wrap flex aligncenter justifycenter gap" id="work">
+
+    </div>
+  </div>
+
+  <!--work together-->
+  <div class="together" id="email">
+    <h1>Are you ready to work together?</h1>
+    <button class="buttonlight">
+      <a href="mailto:hemmatshaheen@gmail.com? subject='Hire'">
+        Send Email
+      </a>
+    </button>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Abdelraman<span>Ahmed</span></h3>
+
+      <p class="footer-links">
+        <a href="#home">Home</a>
+        ·
+        <a href="#work">Work</a>
+        ·
+        <a href="#about">About</a>
+        ·
+        <a href="#contact">Contact</a>
+      </p>
+
+      <p class="footer-company-name"> Abdelrahman © 2021</p>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p>Contact Us</p>
+
+      <form action="#" method="post">
+
+        <input type="text" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button>Send</button>
+
+      </form>
+
+    </div>
+
+  </footer>
+  <!-- Footer -->
+
+  <!--main-->
+  <script type="module" src="js/main.js"></script>
+  <!--work-->
+  <script src="work/fetch.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
